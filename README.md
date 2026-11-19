@@ -2,6 +2,16 @@
 
 Ce depot ne contient **que les versions installables** (pas le code source).
 
+## Installation la plus simple : l'installateur
+
+Telecharge **`Suguru-Creator-Setup.exe`** (dans les fichiers de la derniere version), double-clique, choisis le dossier
+(par defaut `D:\Suguru Creator` si le disque D: existe, sinon ton profil), et c'est installe : raccourcis dans le menu Demarrer et sur le
+bureau, WebView2 installe s'il manque, desinstallation dans Parametres > Applications (tes donnees sont gardees si tu le demandes).
+Version non signee : Windows SmartScreen peut avertir (« Informations complementaires » puis « Executer quand meme »).
+
+**Mises a jour** : l'application verifie toute seule au lancement s'il existe une version plus recente (Parametres > Application
+pour verifier a la main ou desactiver) et se met a jour en gardant tes projets. Aucune action de ta part.
+
 ## Installation (PowerShell)
 
 ```powershell
